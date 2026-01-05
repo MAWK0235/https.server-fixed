@@ -1,4 +1,5 @@
-Fix for https.server AttributeError in Python 3.12+
+Fix for https.server from https://pypi.org/project/https.server/ 
+AttributeError in Python 3.12+
 
 This repository contains a patched version of the https.server module. The original module relied on the ssl.wrap_socket() function, which was deprecated in Python 3.7 and officially removed in Python 3.12.
 The Issue
